@@ -1,0 +1,68 @@
+.counterMachine {
+    background: linear-gradient(#e66465,#9198e5);
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    margin: auto auto auto auto;
+    align-items: center;
+    display: flex;
+    height: 200px;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    /* Optional: Makes sure the content is centered vertical*/
+}
+
+#Subtract {
+    background-color: red;
+    
+}
+#Subtract:hover{
+    background-color: gold;
+      
+}
+#Add {
+    background-color: chartreuse;
+
+}
+#Add:hover{
+    background-color: gold;
+}
+
+#Reset {
+    background-color: #efa818;
+
+}
+#Reset:hover{
+    background-color: gold;
+}
+button {
+    width: 80px;
+    margin-right: 10px;
+    border: none;
+    
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+}
+h1{
+    font-style: normal;
+    font-family: system-ui;
+}
+#Title{
+    margin-top: 8%;
+    border: solid;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
