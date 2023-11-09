@@ -1,68 +1,75 @@
 .counterMachine {
-    background: linear-gradient(#e66465,#9198e5);
-    border-color: black;
-    border-width: 5px;
-    text-align: center;
-    justify-content: center;
-    width: 30%;
-    margin: auto auto auto auto;
-    align-items: center;
-    display: flex;
-    height: 200px;
-    padding-bottom: 2%;
-    border-radius: 20px;
+  background-color: #1e364e;
+  border-color: black;
+  border-width: 5px;
+  text-align: center;
+  justify-content: center;
+  width: 30%;
+  margin: 40vh auto auto auto;
+  align-items: center;
+  display: flex;
+  height: 200px;
+  padding-bottom: 12%;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 0.75rem #49155a);
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-    /* Optional: Makes sure the content is centered vertical*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: #b4a7d1;
 }
 
 #Subtract {
-    background-color: red;
-    
-}
-#Subtract:hover{
-    background-color: gold;
-      
+  background-color: #f20c4a;
+  color: honeydew;
+  font-family: cursive;
 }
 #Add {
-    background-color: chartreuse;
-
-}
-#Add:hover{
-    background-color: gold;
+  background-color: #0ad3ad;
+  color: honeydew;
+  font-family: cursive;
 }
 
 #Reset {
-    background-color: #efa818;
+  background-color: #efa818;
+  color: honeydew;
+  font-family: cursive;
+}
+#Subtract:hover,
+#Add:hover,
+#Reset:hover {
+  background-color: gold;
+  cursor: pointer;
+}
 
-}
-#Reset:hover{
-    background-color: gold;
-}
 button {
-    width: 80px;
-    margin-right: 10px;
-    border: none;
-    
-    border-radius: 5px;
-    margin-right: 10px;
-    padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-left: 10px;
+  padding: 10px;
 }
-h1{
-    font-style: normal;
-    font-family: system-ui;
+
+h1 {
+  font-style: normal;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: xxx-large;
+  font-weight: bold;
+  color: khaki;
 }
-#Title{
-    margin-top: 8%;
-    border: solid;
-    text-align: center;
+#Title {
+  margin-top: 8%;
+  height: 60px;
+  text-align: center;
+  margin-top: 10em;
 }
-p{
-    font-size: 20px;
+p {
+  font-size: 50px;
+  color: lavender;
+  transition: color 0.3s ease-in-out;
 }
