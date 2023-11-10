@@ -1,3 +1,3 @@
-# MiniProject-number-2
+# Counter App
  Counter Machine App
  
