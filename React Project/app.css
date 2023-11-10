@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
 .counterMachine {
   background-color: #1e364e;
   border-color: black;
@@ -20,24 +22,31 @@ body {
   justify-content: center;
   align-items: center;
   height: 60vh;
-  background-color: #b4a7d1;
+  /* background-color: #b4a7d1; */
+  background-image: url("background.gif");
 }
 
 #Subtract {
   background-color: #f20c4a;
   color: honeydew;
-  font-family: cursive;
+  font-family: "Pixelify Sans", sans-serif;
+  box-shadow: 3px 3px 3px #60051d;
+  font-size: 15px;
 }
 #Add {
   background-color: #0ad3ad;
   color: honeydew;
-  font-family: cursive;
+  font-family: "Pixelify Sans", sans-serif;
+  box-shadow: 3px 3px 3px #056b58;
+  font-size: 15px;
 }
 
 #Reset {
   background-color: #efa818;
   color: honeydew;
-  font-family: cursive;
+  font-family: "Pixelify Sans", sans-serif;
+  box-shadow: 3px 3px 3px #7b560c;
+  font-size: 15px;
 }
 #Subtract:hover,
 #Add:hover,
@@ -57,8 +66,8 @@ button {
 
 h1 {
   font-style: normal;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-size: xxx-large;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 55px;
   font-weight: bold;
   color: khaki;
 }
@@ -69,7 +78,7 @@ h1 {
   margin-top: 10em;
 }
 p {
-  font-size: 50px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 60px;
   color: lavender;
-  transition: color 0.3s ease-in-out;
 }
